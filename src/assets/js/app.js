@@ -1,4 +1,4 @@
-import { addItem, getSummary, loadCart, removeItem, setQty } from './cart.js';
+import { addItem, getSummary, loadCart, removeItem, saveCart, setQty } from './cart.js';
 import { formatEur } from './format.js';
 import { getLang, normalizeLang, pick, setLang, t } from './i18n.js';
 
@@ -285,6 +285,9 @@ formEl.addEventListener('submit', (event) => {
     })),
     totalEur: summary.totalEur
   });
+
+  cartState = { items: {}, updatedAt: new Date().toISOString() };
+  saveCart(cartState);
 });
 
 rerender();
