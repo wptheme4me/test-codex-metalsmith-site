@@ -77,6 +77,8 @@ Metalsmith(root)
   .source('.')
   .destination('dist')
   .ignore([
+    '.git/**',
+    '.gitignore',
     'dist/**',
     'node_modules/**',
     'codex/**',
