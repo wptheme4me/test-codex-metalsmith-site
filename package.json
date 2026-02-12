@@ -1,0 +1,20 @@
+{
+  "name": "test-codex-metalsmith-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build/metalsmith.js",
+    "dev": "npm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@metalsmith/layouts": "^3.0.0",
+    "@metalsmith/markdown": "^1.6.0",
+    "jstransformer-nunjucks": "^1.2.0",
+    "metalsmith": "^2.6.3",
+    "nunjucks": "^3.2.4"
+  }
+}

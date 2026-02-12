@@ -1,0 +1,28 @@
+{
+  "companies": [
+    {
+      "id": "omniva",
+      "label": {
+        "lt": "Omniva",
+        "en": "Omniva",
+        "ru": "Omniva"
+      }
+    },
+    {
+      "id": "dpd",
+      "label": {
+        "lt": "DPD",
+        "en": "DPD",
+        "ru": "DPD"
+      }
+    },
+    {
+      "id": "lp-express",
+      "label": {
+        "lt": "LP Express",
+        "en": "LP Express",
+        "ru": "LP Express"
+      }
+    }
+  ]
+}

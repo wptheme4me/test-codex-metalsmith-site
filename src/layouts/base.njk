@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="{{ lang | default('lt') }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title | default('Catalog') }}</title>
+  <link rel="stylesheet" href="/src/assets/css/styles.css">
+</head>
+<body>
+  {{ contents | safe }}
+  <script id="items-data" type="application/json">{{ itemsData | dump | replace('<', '\\u003c') | safe }}</script>
+  <script id="ui-texts-data" type="application/json">{{ uiTextsData | dump | replace('<', '\\u003c') | safe }}</script>
+  <script id="shipping-data" type="application/json">{{ shippingData | dump | replace('<', '\\u003c') | safe }}</script>
+  <script type="module" src="/src/assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+{
+  "site": {
+    "title": {
+      "lt": "Prekių katalogas",
+      "en": "Stock Catalog",
+      "ru": "Каталог товаров"
+    }
+  },
+  "labels": {
+    "language": {
+      "lt": "Kalba",
+      "en": "Language",
+      "ru": "Язык"
+    },
+    "catalog": {
+      "lt": "Katalogas",
+      "en": "Catalog",
+      "ru": "Каталог"
+    },
+    "cart": {
+      "lt": "Krepšelis",
+      "en": "Cart",
+      "ru": "Корзина"
+    },
+    "orderForm": {
+      "lt": "Užsakymo forma",
+      "en": "Order form",
+      "ru": "Форма заказа"
+    },
+    "firstName": {
+      "lt": "Vardas",
+      "en": "First name",
+      "ru": "Имя"
+    },
+    "lastName": {
+      "lt": "Pavardė",
+      "en": "Last name",
+      "ru": "Фамилия"
+    },
+    "address": {
+      "lt": "Adresas",
+      "en": "Address",
+      "ru": "Адрес"
+    },
+    "shipping": {
+      "lt": "Pristatymo įmonė",
+      "en": "Shipping company",
+      "ru": "Служба доставки"
+    },
+    "acceptRules": {
+      "lt": "Sutinku su taisyklėmis",
+      "en": "I accept the terms",
+      "ru": "Я принимаю условия"
+    }
+  },
+  "buttons": {
+    "addToCart": {
+      "lt": "Į krepšelį",
+      "en": "Add to cart",
+      "ru": "В корзину"
+    },
+    "submitOrder": {
+      "lt": "Pateikti užsakymą",
+      "en": "Submit order",
+      "ru": "Отправить заказ"
+    }
+  },
+  "cart": {
+    "empty": {
+      "lt": "Krepšelis tuščias",
+      "en": "Cart is empty",
+      "ru": "Корзина пуста"
+    },
+    "total": {
+      "lt": "Iš viso",
+      "en": "Total",
+      "ru": "Итого"
+    },
+    "item": {
+      "lt": "Prekė",
+      "en": "Item",
+      "ru": "Товар"
+    },
+    "qty": {
+      "lt": "Kiekis",
+      "en": "Qty",
+      "ru": "Кол-во"
+    },
+    "price": {
+      "lt": "Kaina",
+      "en": "Price",
+      "ru": "Цена"
+    },
+    "remove": {
+      "lt": "Pašalinti",
+      "en": "Remove",
+      "ru": "Удалить"
+    },
+    "emptyAlert": {
+      "lt": "Negalite pateikti tuščio krepšelio.",
+      "en": "You cannot submit an empty cart.",
+      "ru": "Нельзя отправить пустую корзину."
+    }
+  },
+  "rules": {
+    "link": {
+      "lt": "Peržiūrėti taisykles",
+      "en": "View terms",
+      "ru": "Просмотреть условия"
+    }
+  }
+}

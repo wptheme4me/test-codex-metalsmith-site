@@ -1,0 +1,69 @@
+{
+  "categories": [
+    {
+      "id": "electronics",
+      "name": {
+        "lt": "Elektronika",
+        "en": "Electronics",
+        "ru": "Электроника"
+      },
+      "items": [
+        {
+          "id": "usb-cable-1m",
+          "name": {
+            "lt": "USB laidas 1m",
+            "en": "USB Cable 1m",
+            "ru": "USB кабель 1м"
+          },
+          "description": {
+            "lt": "Patvarus USB-C laidas.",
+            "en": "Durable USB-C cable.",
+            "ru": "Надежный USB-C кабель."
+          },
+          "priceEur": 4.99,
+          "active": true
+        },
+        {
+          "id": "wireless-mouse",
+          "name": {
+            "lt": "Belaidė pelė",
+            "en": "Wireless Mouse",
+            "ru": "Беспроводная мышь"
+          },
+          "description": {
+            "lt": "Ergonomiška pelė kasdieniam darbui.",
+            "en": "Ergonomic mouse for daily work.",
+            "ru": "Эргономичная мышь для повседневной работы."
+          },
+          "priceEur": 19.9,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "office",
+      "name": {
+        "lt": "Biuro prekės",
+        "en": "Office Supplies",
+        "ru": "Офисные товары"
+      },
+      "items": [
+        {
+          "id": "notebook-a5",
+          "name": {
+            "lt": "Užrašinė A5",
+            "en": "A5 Notebook",
+            "ru": "Блокнот A5"
+          },
+          "description": {
+            "lt": "80 lapų užrašams.",
+            "en": "80 sheets for notes.",
+            "ru": "80 листов для заметок."
+          },
+          "priceEur": 3.5,
+          "active": true
+        }
+      ]
+    }
+  ]
+}

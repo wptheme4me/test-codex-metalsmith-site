@@ -1,0 +1,59 @@
+{% extends "base.njk" %}
+
+{% block content %}{% endblock %}
+
+{% set contents %}
+<header class="site-header">
+  <h1 data-i18n="site.title">Stock Catalog</h1>
+  <label for="language-switcher" data-i18n="labels.language">Language</label>
+  <select id="language-switcher" aria-label="Language switcher">
+    <option value="lt">LT</option>
+    <option value="en">EN</option>
+    <option value="ru">RU</option>
+  </select>
+</header>
+
+<main class="layout">
+  <section class="catalog-section">
+    <h2 data-i18n="labels.catalog">Catalog</h2>
+    <div id="catalog" aria-live="polite"></div>
+  </section>
+
+  <aside class="checkout-section">
+    <section>
+      <h2 data-i18n="labels.cart">Cart</h2>
+      <div id="cart" aria-live="polite"></div>
+    </section>
+
+    <section>
+      <h2 data-i18n="labels.orderForm">Order form</h2>
+      <form id="order-form" name="order" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="order">
+        <input type="hidden" name="bot-field">
+        <input type="hidden" name="cartJson" value="">
+
+        <label for="firstName" data-i18n="labels.firstName">First name</label>
+        <input id="firstName" name="firstName" type="text" required>
+
+        <label for="lastName" data-i18n="labels.lastName">Last name</label>
+        <input id="lastName" name="lastName" type="text" required>
+
+        <label for="address" data-i18n="labels.address">Address</label>
+        <input id="address" name="address" type="text" required>
+
+        <label for="shippingCompany" data-i18n="labels.shipping">Shipping company</label>
+        <select id="shippingCompany" name="shippingCompany" required></select>
+
+        <div class="rules-row">
+          <input id="acceptRules" name="acceptRules" type="checkbox" required>
+          <label for="acceptRules" data-i18n="labels.acceptRules">I accept the terms</label>
+        </div>
+
+        <a id="rules-link" href="rules/lt.html" data-i18n="rules.link">View terms</a>
+
+        <button type="submit" data-i18n="buttons.submitOrder">Submit order</button>
+      </form>
+    </section>
+  </aside>
+</main>
+{% endset %}
